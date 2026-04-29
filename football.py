@@ -4,7 +4,7 @@ import json
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key=st.secrets["openai"]["YOUR_API_KEY_HERE"])
+client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 st.set_page_config(page_title="Football Quiz GOD MODE", layout="wide")
 
